@@ -1,0 +1,16 @@
+2a60927148abd1d33b818b535e306557
+::res://::1678128936
+00TilesetTemplate.png::CompressedTexture2D::8832964886845483895::1678119062::1678119245::1::::<><>::
+backcolor.png::CompressedTexture2D::7052432223438428698::1678060563::1678060572::1::::<><>::
+export_presets.cfg::TextFile::-1::1677963905::0::1::::<><>::
+icon.svg::CompressedTexture2D::1424799743195049076::1677862175::1677862179::1::::<><>::
+level_test.tscn::PackedScene::8022583887570639237::1678128501::0::1::::<><>::uid://bvg0sb3p7jrou<>uid://dx30v2gx6wj7t<>uid://dyxxnsyhmvpny
+main.gd::GDScript::-1::1678119345::0::1::::<>Node<>::
+main.tscn::PackedScene::4279130466073471240::1678128501::0::1::::<><>::res://main.gd<>uid://dmkg1w5spm4d2<>res://SubViewport.gd<>uid://c7qir71e3lg8i
+Player.gd::GDScript::-1::1678127924::0::1::::<>CharacterBody2D<>::
+Player.png::CompressedTexture2D::6247063947659439321::1678122003::1678122012::1::::<><>::
+player.tscn::PackedScene::8892695675720383318::1678128501::0::1::::<><>::res://Player.gd<>uid://cvaeh3p8pwg7b
+README.md::TextFile::-1::1678128850::0::1::::<><>::
+Signal.tscn::PackedScene::3339278020118844179::1678021762::0::1::::<><>::uid://64r180cerp68
+SubViewport.gd::GDScript::-1::1677974864::0::1::::<>SubViewport<>::
+texture_rect.tscn::PackedScene::3874322832228131292::1678128501::0::1::::<><>::uid://ukgijuvte45u

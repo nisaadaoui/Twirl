@@ -1,0 +1,17 @@
+Node
+TileMap
+Sprite2D
+CollisionShape2D
+CharacterBody2D
+Camera2D
+RemoteTransform2D
+Timer
+Button
+TextureRect
+VisibleOnScreenNotifier2D
+SubViewportContainer
+Node2D
+SubViewport
+Window
+AnimationPlayer
+AnimationTree

@@ -1,0 +1,27 @@
+[gd_scene load_steps=5 format=3 uid="uid://dyxxnsyhmvpny"]
+
+[ext_resource type="Script" path="res://Player.gd" id="1_pvr8t"]
+[ext_resource type="Texture2D" uid="uid://cvaeh3p8pwg7b" path="res://Player.png" id="2_fn87c"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_sen35"]
+radius = 2.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dleep"]
+size = Vector2(4, 48)
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_pvr8t")
+
+[node name="RemoteTransform2D" type="RemoteTransform2D" parent="."]
+remote_path = NodePath("../Camera2D")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="GroundCollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_sen35")
+
+[node name="BarCollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_dleep")
+
+[node name="BarSprite2D" type="Sprite2D" parent="BarCollisionShape2D"]
+texture = ExtResource("2_fn87c")
